@@ -1,7 +1,3 @@
-#Additional Features to be added
-#1. To implement OTP Verification for Teacher & Student
-#2. Display student of Only particular Branch
-#3. display Teachers of only particular subject
 class person:
     def __init__(self,rollno,name,email):
         self.name = name
