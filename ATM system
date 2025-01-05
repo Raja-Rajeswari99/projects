@@ -1,15 +1,9 @@
-
-ATM [ Console Based ]
-
-1. withdraw
-2. Deposit
-3. Pin Generation
-4. Mini statement
-
 bank = {
-    101 : ["Sai Vardhan","2408",10000,[24,8,1995]],
-    102 : ["vikram",None,20000,[23,9,2005]] ,
-    103 : ["vignesh","9876",0,[11,1,1900]]
+    101 : ["Ishan","1807",10000,[18,7,1997]],
+    102 : ["hardik",None,20000,[11,10,1993]] ,
+    103 : ["bumrah","9876",0,[6,12,1993]] ,
+    104 : ["Rohit","4545",45000,[30,4,1987]],
+    105 : ["surya","4235",34000,[14,9,1990]]
 }
 while True:
   print("Choose the required option: ")
@@ -101,62 +95,3 @@ while True:
     print("visit again")
     print("******************************")
     break
-     
-Choose the required option: 
-1. Withdraw
-2. Deposit
-3. Pin Generation
-4. Mini statement
-5. Exit
-4
-******************************
-Mini statement
-Enter your account number: 101
-Welcome Sai Vardhan
-Enter Your Pin: 2408
-Balance: 10000
-******************************
-Choose the required option: 
-1. Withdraw
-2. Deposit
-3. Pin Generation
-4. Mini statement
-5. Exit
----------------------------------------------------------------------------
-KeyboardInterrupt                         Traceback (most recent call last)
-<ipython-input-9-54f0d18c7cee> in <cell line: 6>()
-     11   print("4. Mini statement")
-     12   print("5. Exit")
----> 13   n = int(input())
-     14   if n == 1:
-     15     print("******************************")
-
-/usr/local/lib/python3.10/dist-packages/ipykernel/kernelbase.py in raw_input(self, prompt)
-    849                 "raw_input was called, but this frontend does not support input requests."
-    850             )
---> 851         return self._input_request(str(prompt),
-    852             self._parent_ident,
-    853             self._parent_header,
-
-/usr/local/lib/python3.10/dist-packages/ipykernel/kernelbase.py in _input_request(self, prompt, ident, parent, password)
-    893             except KeyboardInterrupt:
-    894                 # re-raise KeyboardInterrupt, to truncate traceback
---> 895                 raise KeyboardInterrupt("Interrupted by user") from None
-    896             except Exception as e:
-    897                 self.log.warning("Invalid Message:", exc_info=True)
-
-KeyboardInterrupt: Interrupted by user
-Linkedin Upload
-
-ATM - Console Based Project
-Technologies Used:
-    1. Control Statements
-    2. Conditional Statements
-    3. Dictionary
-    4. Variables
-    5. Operations
-    6. Lists
-Description:
-    In this project, I involved various operations in ATM like Withdrawal, Deposit, Pin Generation, Mini statements etc,..
-Tools:
-    Google Colab
